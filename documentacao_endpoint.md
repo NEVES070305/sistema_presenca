@@ -5,7 +5,7 @@
   - Parâmetros: DateTime dataParaPresenca, INT usuarioId, string comentario
 - `/presenca`: UPDATE
   - Descrição: Modificar a presença de um determinado aluno
-  - Parâmetros: DateTime dataParaPresenca, INT usuarioId
+  - Parâmetros: DateTime dataParaPresenca, INT usuarioId, boolean presenca
 - `/presenca/data`: GET
   - Descrição: Retorna uma lista de presenca em determinado dia
 - `/presenca/pessoa`: GET
